@@ -5,7 +5,7 @@ from tinymce import models as tmcemodel
 
 
 class Author(models.Model):
-    name = models.CharField(max_length=255)
+    name = models.CharField(max_length=100)
     image = models.ImageField()
 
     # This method is called when somebody tried to print this model object
